@@ -453,9 +453,6 @@ export default function App() {
         {view === "book" ? <BookingPage /> : <AdminDashboard />}
       </main>
 
-      <footer className="footer">
-        Built for assignment — single port deployment. <span className="muted">Local environment</span>
-      </footer>
     </div>
   );
 }
